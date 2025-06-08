@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.hmall.service.impl.ItemServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 4.692 s <<< FAILURE! - in com.hmall.service.impl.ItemServiceImplTest
+testJwt  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Error processing condition on com.hmall.common.config.MyBatisConfig.mybatisPlusInterceptor
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.hmall.common.config.MqConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc7c054]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/amqp/support/converter/MessageConverter
+Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.support.converter.MessageConverter
+
+deductStock  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Error processing condition on com.hmall.common.config.MyBatisConfig.mybatisPlusInterceptor
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.hmall.common.config.MqConfig] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc7c054]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/amqp/support/converter/MessageConverter
+Caused by: java.lang.ClassNotFoundException: org.springframework.amqp.support.converter.MessageConverter
+

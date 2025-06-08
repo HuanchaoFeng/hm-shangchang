@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "minio",
+      "type": "com.example.properties.MinIOConfigProperties",
+      "sourceType": "com.example.properties.MinIOConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "minio.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.properties.MinIOConfigProperties"
+    },
+    {
+      "name": "minio.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.example.properties.MinIOConfigProperties"
+    },
+    {
+      "name": "minio.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.example.properties.MinIOConfigProperties"
+    },
+    {
+      "name": "minio.read-path",
+      "type": "java.lang.String",
+      "sourceType": "com.example.properties.MinIOConfigProperties"
+    },
+    {
+      "name": "minio.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.example.properties.MinIOConfigProperties"
+    }
+  ],
+  "hints": []
+}

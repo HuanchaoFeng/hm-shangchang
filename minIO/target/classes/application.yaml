@@ -1,0 +1,7 @@
+# minio文件上传
+minio:
+  minio_url: 192.168.48.130:9090
+  minio_name: admin
+  minio_pass: admin123456
+  bucketName: testminio
+
