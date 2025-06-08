@@ -18,6 +18,7 @@ import java.util.List;
  */
 public interface ICartService extends IService<Cart> {
 
+    //添加注释
     void addItem2Cart(CartFormDTO cartFormDTO);
 
     List<CartVO> queryMyCarts();
